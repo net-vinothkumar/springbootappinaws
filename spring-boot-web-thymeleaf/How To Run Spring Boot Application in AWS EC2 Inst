@@ -25,18 +25,18 @@ How To Run Spring Boot Application in AWS EC2 Instance ?
 
 	e) If you are using Mac OS or Linux give a permission to the file using a following command.
 
-	f) >chmod 400 springdemoapplication.pem
+	f) >chmod 400 springbootapp.pem
 
 8. From Your Laptop Login To The Created AWS EC2 Instance Using SSH.
 
-	>ssh -i "springdemoapplication.pem" ec2-user@ec2-52-14-228-60.us-east-2.compute.amazonaws.com
+	>ssh -i "springbootapp.pem" ec2-user@ec2-52-14-228-60.us-east-2.compute.amazonaws.com
 
 9. Ensure Java Is Installed In Your AWS EC2 Instance (VM) or Install Java in AWS EC2 Instance.
 	>sudo yum install java-1.8.0
 	>sudo yum remove java-1.7.0-openjdk
 
 10. Get The Spring Boot Application From AWS S3 Bucket To AWS EC2 Instance.
-	> wget https://s3.us-east-2.amazonaws.com/s3-spring-bucket/spring-boot-web-thymeleaf-1.0.jar
+	>wget https://s3.us-east-2.amazonaws.com/s3-spring-bucket/spring-boot-web-thymeleaf-1.0.jar
 
 11. Please enable 8080 For Your Application In AWS Security Group
 
