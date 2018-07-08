@@ -51,6 +51,8 @@ How To Run Spring Boot Application in AWS EC2 Instance ?
 [ec2-user@ip-172-31-20-5 ~]$ java -jar spring-boot-web-thymeleaf-1.0.jar 
 
 
+```
+
 
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -81,3 +83,12 @@ How To Run Spring Boot Application in AWS EC2 Instance ?
 2018-07-07 21:35:09.619  INFO 2835 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 2018-07-07 21:35:10.460  INFO 2835 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
 2018-07-07 21:35:10.564  INFO 2835 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+
+```
+
+Recommeded AWS Course in Tamil :
+
+Mr.Susindran Suruli
+AWS solution architec and Redhat certified engineer (RHCE)
+
+https://www.udemy.com/aws-tamil-tutorial-from-zero-to-hero/learn/v4/overview
